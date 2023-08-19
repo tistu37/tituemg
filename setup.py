@@ -9,6 +9,7 @@ setuptools.setup(
     author_email="titubino@miuandes.cl.com",
     description="Heramioentas utiles para el proceso de EMG",
     long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     url="https://github.com/tistu37/tituemg",
     install_requires=['cipy', 'numpy'],
     packages=setuptools.find_packages(),
