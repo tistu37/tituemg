@@ -4,7 +4,7 @@ import setuptools
 
 setuptools.setup(
     name="tituemg",
-    version="0.0.1.3",
+    version="0.0.1.4",
     author="Tomas Tubino",
     author_email="titubino@miuandes.cl.com",
     description="Heramioentas utiles para el proceso de EMG",
