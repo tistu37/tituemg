@@ -49,7 +49,7 @@ def rec(emg):
     """
 
     # Realizar la rectificación de la señal EMG
-    rectified_emg = np.abs(emg - np.mean(emg))
+    return rectified_emg = np.abs(emg - np.mean(emg))
 
 
 def notch(emg, fn, fm, q=30):
