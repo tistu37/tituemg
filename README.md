@@ -23,4 +23,4 @@ pip install tituemg
 ## Estado actual 27/07/24
 hoy en dia el objetivo es continuar agregando funciones para el procesamiento de EMG segun el articulo  "Current developments in surface electromyography(doi:10.55730/1300-0144.5667)" y posteriormente ampliar a diferentesa articulos. Lo que ya hay son funciones basicas pero faltan ejemplos entre otras cosas.
 
-### meta agosto/septiembre 2024 ==> retomar y afregar hererramnienta de analisis de frecuencia de EMG 
+### meta agosto/septiembre 2024 ==> retomar y afregar hererramnienta de analisis de frecuencia de EMG, agregar ejemplos en jupyter de lo previamente subido
