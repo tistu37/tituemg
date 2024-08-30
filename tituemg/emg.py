@@ -25,11 +25,12 @@ def low_fil(emg, cutoff_freq, sampling_rate=1000, order=2):
     return emg_fil
 
 
-def rec(emg):
+def rec(emg, off=True):
     """
     Realiza la rectificación de una señal de electromiografía (EMG).
 
-    Esta función realiza la rectificación de onda completa de una señal de EMG.
+    Esta función realiza el ajuste del offset y rectificación de onda completa de una señal de EMG.
+    El ajuste del ofset... (completar)
     La rectificación convierte los valores negativos de la señal en sus valores
     positivos equivalentes, preservando la amplitud de la señal.
 
@@ -49,7 +50,10 @@ def rec(emg):
     """
 
     # Realizar la rectificación de la señal EMG
-    return rectified_emg = np.abs(emg - np.mean(emg))
+    if off:
+        emg = (emg - np.mean(emg))
+        
+    return rectified_emg = np.abs(emg)
 
 
 def notch(emg, fn, fm, q=30):
