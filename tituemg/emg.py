@@ -53,7 +53,7 @@ def rec(emg, off=True):
     if off:
         emg = (emg - np.mean(emg))
         
-    return rectified_emg = np.abs(emg)
+    return np.abs(emg)
 
 
 def notch(emg, fn, fm, q=30):
