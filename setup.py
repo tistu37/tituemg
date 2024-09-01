@@ -11,7 +11,7 @@ setuptools.setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url="https://github.com/tistu37/tituemg",
-    install_requires=['scipy', 'numpy'],
+    install_requires=['scipy', 'numpy', 'PyWavelets'],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
